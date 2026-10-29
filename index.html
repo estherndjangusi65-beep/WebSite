@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Government of Ituri Province</title>
+  <meta name="description" content="Official website of the Government of Ituri Province: public services, projects and news from Bunia and across the province.">
+  <link rel="icon" href="images/logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="bar">
+      <a class="logo" href="#home">
+        <img class="seal" src="images/logo.png" alt="Ituri Province seal">
+        <span class="brandtxt">
+          <b>Ituri Province</b>
+          <small>Provincial Government</small>
+        </span>
+      </a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">☰ Menu</button>
+
+      <nav id="mainNav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+
+        <div class="dropdown">
+          <button class="dropbtn" type="button" aria-expanded="false">Services ▾</button>
+          <div class="dropdown-menu">
+            <a href="civil-registry.html">Civil Registry</a>
+            <a href="health.html">Health</a>
+            <a href="education.html">Education</a>
+            <a href="agriculture.html">Agriculture and Economy</a>
+          </div>
+        </div>
+
+        <a href="news.html">News</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- NEWS TICKER -->
+  <div class="ticker">
+    <span class="badge">News</span>
+    <div class="ticker-track">
+      <div class="ticker-move">
+        <span>Ebola Response Team Deployed to Mambasa and Mandima</span>
+        <span>Health Authorities Strengthen Ebola Response in Ituri</span>
+        <span>WHO and Partners Support Ebola Response Efforts</span>
+        <span>Communities Receive Support During the Ebola Response</span>
+        <span>Ituri Authorities Continue Efforts to Protect Communities</span>
+        <span>Ebola Prevention and Community Awareness Activities Strengthened</span>
+      </div>
+    </div>
+  </div>
+
+  <main>
+
+    <!-- HOME -->
+    <div class="hero" id="home" style="background-image: linear-gradient(rgba(6,50,59,.75), rgba(6,50,59,.65)), url('images/hero.jpg');">
+      <p class="hello">Welcome to the Government of Ituri Province</p>
+      <h1>Building a peaceful, developed and prosperous Ituri</h1>
+      <p class="intro">Find official information, public services, projects and news from Bunia and across the province.</p>
+      <div class="cta">
+        <a class="btn" href="#services">Explore our services</a>
+        <a class="btn ghost" href="#governor">Message from the Governor</a>
+      </div>
+    </div>
+
+    <!-- CITIZEN SERVICES -->
+    <section id="services">
+      <h2>Citizen Services</h2>
+      <div class="grid">
+
+        <div class="card">
+          <img class="card-img" src="images/civil.webp" alt="Civil registry services in Bunia, Ituri">
+          <h3>Civil Registry and Documents</h3>
+          <p>Birth certificates, marriage certificates, identity documents and other civil registration services.</p>
+        </div>
+
+        <div class="card">
+          <img class="card-img" src="images/health.jpg" alt="Health services in Ituri">
+          <h3>Health</h3>
+          <p>Health centres, medical services and prevention campaigns for communities across Ituri.</p>
+        </div>
+
+        <div class="card">
+          <img class="card-img" src="images/education.jpg" alt="Education in Ituri">
+          <h3>Education</h3>
+          <p>Information about schools, enrolment, education programmes and learning opportunities.</p>
+        </div>
+
+        <div class="card">
+          <img class="card-img" src="images/agriculture.jpg" alt="Agriculture and economic activities in Ituri">
+          <h3>Agriculture and Economy</h3>
+          <p>Support for farmers, traders, businesses and economic activities across Ituri Province.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PROVINCIAL PROJECTS -->
+    <section id="projects">
+      <h2>Provincial Projects</h2>
+      <div class="grid">
+
+        <article class="card">
+          <span class="status ongoing">Ongoing</span>
+          <img src="images/hospital.jpg" alt="Health services in Ituri" class="project-photo">
+          <h3>Health and Community Support</h3>
+          <p>Supporting health services and improving access to medical care for communities across Ituri Province.</p>
+        </article>
+
+        <article class="card">
+          <span class="status planned">Planned</span>
+          <img src="images/road.jpg" alt="Road in Ituri" class="project-photo">
+          <h3>Road and Infrastructure Development</h3>
+          <p>Improving road infrastructure to support transportation, connect communities, and facilitate local trade.</p>
+        </article>
+
+        <article class="card">
+          <span class="status done">Completed</span>
+          <img src="images/airport.jpg" alt="Bunia National Airport" class="project-photo">
+          <h3>Community Development Activities</h3>
+          <p>Showcasing important public infrastructure in Bunia, including the National Airport of Bunia, which supports transport and connectivity in Ituri Province.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- GOVERNOR -->
+    <section id="governor">
+      <h2>Message from the Governor</h2>
+      <div class="governor">
+        <img class="photo" src="images/governor.jpg" alt="Military Governor of Ituri Province">
+        <div>
+          <p>Dear citizens of Ituri,</p>
+          <p>It is with great pleasure that I welcome you to the official website of the Provincial Government of Ituri. This platform has been created to bring the administration closer to you and to keep you informed about public services, development projects, and activities across the province.</p>
+          <p>We remain committed to promoting peace, development, and the well-being of every community in Ituri. I invite you to explore this website, stay informed about our activities, and share your suggestions with us.</p>
+          <p>Together, let us work towards a peaceful and prosperous Ituri.</p>
+          <p class="sign"><b>Major General Gaby Kasongo Mulumba Batoka</b><br>Military Governor of Ituri Province</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWS -->
+    <section id="news">
+      <h2>Latest News</h2>
+      <div class="news-grid">
+        <article class="news-card">
+          <img class="news-img" src="images/news.jpg" alt="Ebola response team in Ituri">
+          <div class="news-body">
+            <span class="news-date">4 October 2026</span>
+            <h3>Ebola Response Team Deployed to Mambasa and Mandima</h3>
+            <p>A rapid response team has been deployed to Mambasa and Mandima in Ituri to strengthen the response to the Ebola outbreak and support affected communities.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer id="contact">
+    <div class="footer-grid">
+
+      <div>
+        <h4>Government of Ituri Province</h4>
+        <p>Official website of the Provincial Government of Ituri, Democratic Republic of the Congo.</p>
+      </div>
+
+      <div>
+        <h4>Quick links</h4>
+        <a href="#services">Citizen Services</a>
+        <a href="#projects">Provincial Projects</a>
+        <a href="#governor">Message from the Governor</a>
+        <a href="#news">Latest News</a>
+      </div>
+
+      <div>
+        <h4>Contact</h4>
+        <p>Mulunge Avenue, Lumumba Quarter, Mbunya Commune, Bunia, Ituri Province</p>
+        <p>+243 823 370 987 · +243 814 903 624</p>
+        <p>provinceituri@gmail.com</p>
+      </div>
+
+    </div>
+
+    <p class="copyright">© 2026 Government of Ituri Province. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
