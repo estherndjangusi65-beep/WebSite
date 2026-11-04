@@ -30,8 +30,8 @@ header{
   display:flex;
   align-items:center;
   justify-content:space-between;
-  flex-wrap:wrap;
-  gap:12px;
+  flex-wrap:nowrap;
+  gap:8px;
 }
 
 /* LOGO */
@@ -63,17 +63,22 @@ img.seal{
 /* NAVIGATION */
 nav{
   display:flex;
-  gap:6px;
-  flex-wrap:wrap;
+  gap:2px;
+  flex-wrap:nowrap;
+  align-items:center;
 }
 
-nav a{
+nav a,
+nav a:visited{
   color:white;
   text-decoration:none;
-  padding:8px 14px;
-  border-radius:20px;
   font-weight:bold;
-  font-size:15px;
+}
+
+nav a,
+.dropbtn{
+  font-size:13px;
+  padding:7px 8px;
 }
 
 nav a:hover{
@@ -606,7 +611,8 @@ footer a:hover{
 }
 
 @media (hover:hover) and (min-width:701px){
-  .dropdown:hover .dropdown-menu{
+  .dropdown:hover .dropdown-menu,
+  .dropdown:focus-within .dropdown-menu{
     display:block;
   }
 }
