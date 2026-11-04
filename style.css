@@ -232,7 +232,7 @@ h2{
 /* CARD IMAGES */
 .card-img{
   width:100%;
-  height:120px;
+  height:160px;
   display:block;
   object-fit:cover;
   object-position:center;
