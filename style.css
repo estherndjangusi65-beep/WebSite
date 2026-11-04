@@ -1087,3 +1087,42 @@ footer a:hover{
   max-width:none;
 }
 
+/* FIX MOBILE MENU LAYOUT */
+@media (max-width:700px){
+
+  .bar{
+    flex-wrap:wrap;
+    justify-content:space-between;
+  }
+
+  .logo{
+    flex:1;
+    min-width:0;
+  }
+
+  .menu-btn{
+    flex-shrink:0;
+  }
+
+  nav{
+    order:3;
+    flex-basis:100%;
+    width:100%;
+    align-items:stretch;
+  }
+
+  nav.open{
+    display:flex;
+  }
+
+  nav > a,
+  nav .dropdown,
+  nav .dropbtn{
+    width:100%;
+    text-align:left;
+  }
+
+  nav > a{
+    padding:12px 14px;
+  }
+}
