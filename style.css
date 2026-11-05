@@ -1126,3 +1126,29 @@ footer a:hover{
     padding:12px 14px;
   }
 }
+
+
+/* ALUR HERITAGE CARD */
+.heritage-card {
+  max-width: 450px;
+}
+.heritage-photo {
+  width: 100%;
+  height: 230px;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 18px;
+}
+
+/* BUNIA TOWN CARD */
+.bunia-card {
+  max-width: 450px;
+}
+
+.bunia-photo {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
