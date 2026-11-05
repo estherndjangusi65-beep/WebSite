@@ -1087,6 +1087,7 @@ footer a:hover{
   max-width:none;
 }
 
+
 /* FIX MOBILE MENU LAYOUT */
 @media (max-width:700px){
 
@@ -1127,22 +1128,26 @@ footer a:hover{
   }
 }
 
+/* HISTORY PAGE PHOTOS */
+.history-card {
+  width: 100%;
+  max-width: 650px;
+  margin: 20px 0;
+  overflow: hidden;
+  border-radius: 18px;
+}
 
-/* HISTORY PAGE COMPACT LAYOUT */
-.history-grid {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  max-width: 900px;
-  margin: 20px 0 30px;
+.history-card .history-photo {
+  width: 100%;
+  height: 280px !important;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  margin: 0;
 }
-.history-grid .card-img {
-  height: 180px;
-  margin-bottom: 15px;
-}
-@media (max-width: 600px) {
-  .history-grid {
-    grid-template-columns: 1fr;
-  }
-  .history-grid .card-img {
-    height: 180px;
+
+@media (max-width: 700px) {
+  .history-card .history-photo {
+    height: 250px !important;
   }
 }
