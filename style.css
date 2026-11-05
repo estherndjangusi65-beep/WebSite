@@ -1134,17 +1134,14 @@ footer a:hover{
   max-width: 900px;
   margin: 20px 0 30px;
 }
-
 .history-grid .card-img {
   height: 180px;
   margin-bottom: 15px;
 }
-
 @media (max-width: 600px) {
   .history-grid {
     grid-template-columns: 1fr;
   }
-
   .history-grid .card-img {
     height: 180px;
   }
