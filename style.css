@@ -1166,3 +1166,18 @@ footer a:hover{
   object-position: center;
   margin: 0;
 }
+
+/* CULTURE PAGE PHOTOS */
+.culture-grid {
+  max-width: 700px;
+  margin: 20px 0 30px;
+}
+.culture-grid .card-img {
+  width: 100%;
+  height: auto;
+  max-height: 350px;
+  display: block;
+  object-fit: contain;
+  object-position: center;
+  margin: 0;
+}
